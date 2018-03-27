@@ -1,7 +1,6 @@
 # MazeRunners
 ## personnel
 Yin On Chan
-\n Alex Liu 
-test
+/nAlex Liu 
 ## statement of problem
 ## recursive abstraction
