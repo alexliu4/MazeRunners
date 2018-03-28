@@ -11,9 +11,9 @@ The recursive abstraction can return if it's possible to get from the next inter
 A maze with a straight path to the treasure.
 ## English or pseudocode description of algorithm
 given a starting position
-check if it's a straight path to the treasure.  
+check if it's a treasure in the 4 spaces around it.  
 if it is then return true.  
-else check if there is a straight path to an intersection.
+else check if there is a a possible path to take that has not been taken before.
 if yes, return false || recursive solve starting at the starting at that intersection  
 if no return false
 ## class(es), with fields and methods
