@@ -8,7 +8,8 @@ What is the boolean value of the statement "it is possible to get from the start
 When I am asked is it possible to get from this position to the treasure  
 The recursive abstraction can return if it's possible to get from the next intersection to the treasure.
 ## base case
-A maze with a straight path to the treasure.
+On a treasure.  Return true
+In a wall.  Return false
 ## English or pseudocode description of algorithm
 given a starting position
 check if it's a treasure in the 4 spaces around it.  
