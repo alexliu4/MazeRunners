@@ -3,7 +3,7 @@
 Yin On Chan  
 Alex Liu
 ## statement of problem
-What is the boolean value of the statement "it is possible to get from the current position to the treasure"?
+Return the boolean value of the statement "it is possible to get from the current position to the treasure"?
 ## recursive abstraction 
 When I am asked is it possible to get from this position to the treasure  
 The recursive abstraction can return if it's possible to get from the next intersection to the treasure.
