@@ -21,3 +21,6 @@ if no return false
 
 ## version*n* wish list
 What is the shortest path to the treasure?
+
+## known bugs 
+None
