@@ -24,3 +24,6 @@ What is the shortest path to the treasure?
 
 ## known bugs?
 none
+
+## v1
+Added display to show code processing
