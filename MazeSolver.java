@@ -1,6 +1,19 @@
 public class MazeSolver {
 	
+	    private static Displayer displayer;
+		
+		public static void setSize(int length){
+			displayer = new Displayer(length);
+		}
+		
+		private static void display(Maze maze){
+			displayer.atTopOfWindow("Current Maze" + System.lineSeparator() + maze);
+		}
+	
 	public static boolean solver(Maze maze){
+		
+		display(maze);
+		
 		if (maze.explorerIsOnA() == Maze.WALL){
 			return false;
 		}

@@ -9,9 +9,9 @@ public class UserOfMazeSolver {
                             , Integer.parseInt( commandLine[1])
                             , Integer.parseInt( commandLine[2])
                             );
-        System.out.println( maze + System.lineSeparator());
+		MazeSolver.setSize(Integer.parseInt(commandLine[3]));
 	
-	System.out.println( MazeSolver.solver(maze) + System.lineSeparator());
+		System.out.println(MazeSolver.solver(maze) + System.lineSeparator());
 
 	}
 }
